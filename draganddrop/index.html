@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!--Box Icons-->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Drag and drop card</title>
+  </head>
+  <body>
+    <div class="drop">
+      <div class="drop__container" id="drop-items">
+        <div class="drop__card">
+          <div class="drop__data">
+            <img src="./img/img1.jpg" alt="" class="drop__img" />
+            <div>
+              <h1 class="drop__name">Juan White</h1>
+              <span class="drop__profession">Web Developer</span>
+            </div>
+          </div>
+          <div>
+            <a href="#" class="drop__social"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="#" class="drop__social"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="drop__social"><i class="bx bxl-twitter"></i></a>
+          </div>
+        </div>
+        <div class="drop__card">
+            <div class="drop__data">
+              <img src="./img/img2.jpg" alt="" class="drop__img" />
+              <div>
+                <h1 class="drop__name">Liz Denver</h1>
+                <span class="drop__profession">Web Designer</span>
+              </div>
+            </div>
+            <div>
+              <a href="#" class="drop__social"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+              <a href="#" class="drop__social"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="drop__social"><i class="bx bxl-twitter"></i></a>
+            </div>
+          </div>
+          <div class="drop__card">
+            <div class="drop__data">
+              <img src="./img/img3.jpg" alt="" class="drop__img" />
+              <div>
+                <h1 class="drop__name">Rita de Cassia</h1>
+                <span class="drop__profession">Full Stack Developer</span>
+              </div>
+            </div>
+            <div>
+                <a href="#" class="drop__social"
+                  ><i class="bx bxl-instagram"></i
+                ></a>
+                <a href="#" class="drop__social"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="drop__social"><i class="bx bxl-twitter"></i></a>
+              </div>
+            </div>
+            <div class="drop__card">
+                <div class="drop__data">
+                  <img src="./img/img4.jpg" alt="" class="drop__img" />
+                  <div>
+                    <h1 class="drop__name">Júlia Oliveira</h1>
+                    <span class="drop__profession">UX Designer</span>
+                  </div>
+                </div>
+            <div>
+              <a href="#" class="drop__social"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+              <a href="#" class="drop__social"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="drop__social"><i class="bx bxl-twitter"></i></a>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <!--Sortable JSS    -->
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+    <!--Main JS-->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
